@@ -1,0 +1,16 @@
+{
+  "name": "ui-automation-with-playwright",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
